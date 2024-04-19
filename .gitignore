@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+#test file, practic file
+test*.c
+test*.cc
+test*.cpp
