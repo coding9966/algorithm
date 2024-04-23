@@ -35,3 +35,5 @@
 test*.c
 test*.cc
 test*.cpp
+
+*.vscode
