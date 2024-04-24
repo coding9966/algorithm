@@ -72,11 +72,6 @@ int main() {
     l2->next->next->next = NULL;
     
     struct ListNode* result = addTwoNumbers(l1, l2);
-    
-    printf("Test Case 1:\n");
-    printf("Input: 2 -> 4 -> 3 + 5 -> 6 -> 4\n");
-    printf("Expected Output: 7 -> 0 -> 8\n");
-    printf("Actual Output: ");
     while (result != NULL) {
         printf("%d -> ", result->val);
         result = result->next;
