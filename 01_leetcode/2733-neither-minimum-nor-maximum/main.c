@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <math.h>
 
 int findNonMinOrMax(int* nums, int numsSize){
     if(numsSize < 3) return -1;
     int min_val = nums[0];
-    int max_val = nums[0];
+    int max_val = nums[1];
     for(int i = 0; i < numsSize; i++) {
         if(nums[i] < min_val) {
             min_val = nums[i];
@@ -29,6 +30,5 @@ int main() {
     } else {
         printf("No such number found. \n");
     }
-
     return 0;
 }

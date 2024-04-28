@@ -1,4 +1,7 @@
-# Prerequisites
+:qa
+::qa
+::qa
+:tes
 *.d
 
 # Compiled Object files
@@ -37,3 +40,4 @@ test*.cc
 test*.cpp
 
 *.vscode
+Untitled*
