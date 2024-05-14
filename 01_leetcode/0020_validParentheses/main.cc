@@ -38,7 +38,14 @@ class Solution{
 
 
 int main() {
-    std::string str = ")";
-    std::cout << Solution().isValid(str) << std::endl;
+    std::string str1 = ")";
+    std::cout << "The string " << str1 << " is valid : " << Solution().isValid(str1) << std::endl;
+
+    std::string str2 = "[]";
+    std::cout << "The string " << str2 << " is valid : " << Solution().isValid(str2) << std::endl;
+
+    std::string str3 = "{})";
+    std::cout << "The string " << str3 << " is valid : " << Solution().isValid(str3) << std::endl;
+    return 0;
     return 0;
 }
