@@ -41,3 +41,4 @@ test*.cpp
 
 *.vscode
 Untitled*
+*copy*

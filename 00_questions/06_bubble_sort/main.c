@@ -7,8 +7,8 @@ void swap(int* a, int* b) {
 }
 
 void sort_arry_to_max_number(int array[], int len) {
-    for(int i = 0; i < len - 1; ++i) {
-        for(int j = 0; j < len - i - 1; ++j) {
+    for(int i = 1; i < len; ++i) {
+        for(int j = 0; j < len - i; ++j) {
             if(array[j] < array[j+1]) {
                 swap(&array[j], &array[j+1]);
             }
