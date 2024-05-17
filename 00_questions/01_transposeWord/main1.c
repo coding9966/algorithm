@@ -13,7 +13,6 @@ void transpose_words(char *str) {
     char *word_start = str;
     char *curr = str;
 
-    //for(; *curr != NULL; curr++) {
     while (*curr) {
         curr++;
         if (*curr == '\0') {
