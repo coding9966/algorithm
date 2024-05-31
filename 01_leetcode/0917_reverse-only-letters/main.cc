@@ -5,12 +5,12 @@ using namespace std;
 class Solution {
 public:
 
-
     void swap(char* a, char* b) {
         char temp = *a;
         *a = *b;
         *b = temp;
     }
+
     string reverseOnlyLetters(string s) {
         int l = 0, r = s.length() - 1;
         while(l < r) {
@@ -45,8 +45,5 @@ public:
 int main() {
     string s = "a-bC-dEf-ghIj";  //j-Ih-gfE-dCba
     cout << Solution().reverseOnlyLetters(s) << endl;
-    //cout << Solution().reverseOnlyLetters(s) << endl;
  
-
-
 }
