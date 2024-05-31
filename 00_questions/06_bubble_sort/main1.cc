@@ -9,13 +9,13 @@ void bubbleSort(int arr[], int n) {
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
-            }
+            }  
         }
     }
 }
 
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int arr[] = {1, 2, 0, 0, 1};
     int n = sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr, n);
     cout << "Sorted array: ";

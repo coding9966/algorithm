@@ -6,7 +6,7 @@ std::vector<std::vector<int>> transposeMatrix(const std::vector<std::vector<int>
     int columns = matrix[0].size();
     std::vector<std::vector<int>> res(columns, std::vector<int>(raws, 0));
 
-    for(int i = 0; i< raws; i++) {
+    for(int i = 0; i < raws; i++) {
         for(int j = 0; j < columns; j++) {
             res[j][i] = matrix[i][j];
         }
