@@ -38,7 +38,9 @@
 test*.c
 test*.cc
 test*.cpp
+test*.py
 
 *.vscode
 Untitled*
 *copy*
+
