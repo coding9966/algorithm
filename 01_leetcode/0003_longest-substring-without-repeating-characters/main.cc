@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+//more method see https://leetcode.com/problems/longest-substring-without-repeating-characters/solutions/5280628/video-sliding-window-set-hashing-and-the-last-position-3-ways
